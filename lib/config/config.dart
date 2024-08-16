@@ -1,3 +1,4 @@
 class Config {
-  static const appName = "File Remover";
+  static const String appName = "File Remover";
+  static const int nbColGallery = 4;
 }

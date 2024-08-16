@@ -15,8 +15,8 @@ class HomeScreen extends StatelessWidget{
       child: Scaffold(
         appBar: _buildAppBar(context),
         bottomNavigationBar: const TabBar(tabs:[
-          Tab(icon: Icon(Icons.home)), //home
-          Tab(icon: Icon(Icons.analytics)), //stats area_chart or data_thresholding  //animal => cruelty_free 
+          Tab(icon: Icon(Icons.image)),//or home
+          Tab(icon: Icon(Icons.analytics)),
         ]),
         body: Padding(
           padding: const EdgeInsets.all(15),
@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget{
 
   PreferredSizeWidget _buildAppBar(BuildContext context){
     return AppBar(
+      title: const Text(Config.appName),
       actions: <Widget>[
         IconButton(
           icon: const Icon(Icons.info),
@@ -46,8 +47,7 @@ class HomeScreen extends StatelessWidget{
           },
         ),
       ],
-      title: const Text(Config.appName),
-      );
+    );
   }
 }
 
