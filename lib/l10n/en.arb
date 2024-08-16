@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "aboutTitle": "About",
+  "aboutTooltip": "About",
+  "settingsTitle": "Settings",
+  "settingsTooltip": "Settings",
+  "settingsThemeTitle": "Theme",
+  "settingsLangTitle": "Language"
+}

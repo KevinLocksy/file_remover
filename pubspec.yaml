@@ -1,7 +1,7 @@
 name: file_remover
-description: "A new Flutter project."
+description: "Flutter project: file remover"
 publish_to: 'none'
-version: 0.1.0
+version: 0.0.1
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.1.2
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
